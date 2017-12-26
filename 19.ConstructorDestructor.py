@@ -9,7 +9,7 @@ class Person:
         self.firstName = firstName  # need to create self object within the class
         self.lastName = lastName    # and it will be used all over the class like global variable
 
-    def showName(self):  # self argument is always present in any member funtion arguments
+    def showName(self):  # self argument is always present in any member function arguments
         print 'In class, showName method:', self.firstName, self.lastName
 
 
