@@ -9,10 +9,10 @@ print "dictVariable['Age'] =", dictVariable['Age']    # 23
 # e.g if we write print dictVariable['Education']
 # because Education key is not present in the dictionary
 
-print "Length of Dictionary =", len(dictVariable)   # 3
+print f"Length of Dictionary = len(dictVariable) "  # 3   use f string for better understanding
 
 # Returns a list of dictionary's (key,value) tuple pairs
-print 'List of Dictionary Items =', dictVariable.items()
+print f'List of Dictionary Items = dictVariable.items()'
 # [('Age', 23), ('Name', 'Prasad'), ('Class', 'First')]
 
 print 'Keys of Dictionary =', dictVariable.keys()       # ['Age', 'Name', 'Class']
